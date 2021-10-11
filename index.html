@@ -7,6 +7,12 @@
 
     <!--CSS Styles -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    /> -->
 
     <!-- Favicons -->
     <link
@@ -206,7 +212,7 @@
       <h2>Get In Touch With Me</h2>
       <div class="contact-form-container">
         <div class="contact-form">
-          <form action="https://formspree.io/f/xyylngw" method="POST">
+          <div>
             <div class="form-control">
               <label for="name">Name</label>
               <input
@@ -245,9 +251,10 @@
               type="submit"
               value="Submit"
               id="submit-btn"
+              onclick="sendmail()"
               class="submit-btn"
             />
-          </form>
+          </div>
         </div>
       </div>
     </section>
@@ -312,5 +319,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
