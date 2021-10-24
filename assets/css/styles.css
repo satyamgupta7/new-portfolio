@@ -107,7 +107,10 @@ nav ul li {
   height: 30.5rem;
   width: 30.5rem;
 }
-
+.hero img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
 .bio {
   width: 25rem;
   padding: 0.625rem;
@@ -150,6 +153,14 @@ nav ul li {
 
 .skills-wrapper img {
   padding: 1.25rem;
+}
+div.first-set :hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+div.second-set :hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .icon {
@@ -242,9 +253,9 @@ nav ul li {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #fff;
+  background-color: #23c4ed;
   border: 2px solid var(--primary-color);
-  border-radius: 5px;
+  border-radius: 15px;
   font-size: 1rem;
   font-weight: var(--bold-font);
   transition: var(--transition);
